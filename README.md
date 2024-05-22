@@ -11,8 +11,8 @@ An Interactive tile application that provide functionality based on interaction 
 ## Output
 
 ### Initial State
-![](./public/init.png)
+![](public/init.png)
 ### When we input (A B C F F F G)
-![](./public/output1.png)
+![](public/output1.png)
 ### When we input (A 6 times followed by B)
 ![](./public/output2.png)
