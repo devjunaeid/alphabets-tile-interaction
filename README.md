@@ -1,8 +1,18 @@
-# React + Vite
+# Interactive Alphabets.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Interactive tile application that provide functionality based on interaction and rules.
 
-Currently, two official plugins are available:
+## The Application have to full-fill following criteria.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Tile Rendering.(grid/container)
+2. Click Interaction. (shows output on a html element with id `outputString`)
+3. Consecutive latter replacement(when same char repeated 3 times then it will be replaced by "_").
+
+## Output
+
+### Initial State
+![](./public/init.png)
+### When we input (A B C F F F G)
+![](./public/output1.png)
+### When we input (A 6 times followed by B)
+![](./public/output2.png)
